@@ -3,12 +3,9 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
   return (
-    <div className="bg-[#050D14]">
+    <div className="bg-[#171c35] text-white">
       <Navbar></Navbar>
       <Outlet></Outlet>
-      <div className="bg-gray-200">
-        <h1>this is footer</h1>
-      </div>
     </div>
   );
 };
